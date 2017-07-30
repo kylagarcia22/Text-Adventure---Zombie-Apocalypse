@@ -28,7 +28,7 @@ elif path == ("right") or ("Right"):
 else:
     print ("Wrong input. Try again.")
 
-forest = str(input("Do you want to fight or run?")
+forest = str(input("Do you want to fight or run?"))
 
 if forest == ("run") or ("Run"):
     run()
