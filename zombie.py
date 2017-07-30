@@ -19,14 +19,10 @@ def no():
 
 path = str(input("You explore the area and find a road split into two paths. Do you choose to go left or right?"))
 
-if path == ("left"):
-    left()
-if path == ("Left"):
+if path == ("left") or ("Left"):
     left()
 
-elif path == ("right"):
-    right()
-elif path == ("Right"):
+elif path == ("right") or ("Right"):
     right()
 
 else:
@@ -34,9 +30,9 @@ else:
 
 forest = str(input("Do you want to fight or run?")
 
-if forest == ("run")
+if forest == ("run") or ("Run"):
     run()
-elif forest == ("fight"):
+elif forest == ("fight") or ("Fight"):
     fight()
 
 else:
@@ -44,9 +40,9 @@ else:
 
 city = str(input("Do you let them join you?"))
 
-if city == ("yes")
+if city == ("yes") or ("Yes"):
     yes()
-elif city == ("no")
+elif city == ("no") or ("No"):
     no()
 
 else:
